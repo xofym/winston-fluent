@@ -21,7 +21,7 @@
   "peerDependencies": {
     "winston": "1.0.0"
   },
-  "main": "./lib/winston-fluent",
+  "main": "./lib/winston-fluent"
   
 
 }
