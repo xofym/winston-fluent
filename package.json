@@ -2,7 +2,6 @@
   "name": "winston-fluent",
   "description": "A fork of fluent transport for winston",
   "version": "0.1.0-fork",
-
   "repository": {
     "type": "git",
     "url": "https://github.com/xofym/winston-fluent.git"
@@ -16,12 +15,14 @@
     "td-agent"
   ],
   "dependencies": {
-    "fluent-logger": "~0.3.0"
+    "fluent-logger": "^2.3.0"
   },
   "peerDependencies": {
     "winston": ">1.0.0"
   },
-  "main": "./lib/winston-fluent"
-  
-
+  "main": "./lib/winston-fluent",
+  "devDependencies": {
+    "vows": "^0.8.1",
+    "winston": "^2.3.1"
+  }
 }
